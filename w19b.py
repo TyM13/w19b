@@ -5,15 +5,19 @@ print('3: Multiplication')
 print('4: Division')
 
 def add_user_num(user_num_one, user_num_two):
+    print(user_num_one + user_num_two)
     return user_num_one + user_num_two
    
 def sub_user_num(user_num_one, user_num_two):
+    print(user_num_one - user_num_two)
     return user_num_one - user_num_two
 
 def mult_user_num(user_num_one, user_num_two):
+    print(user_num_one * user_num_two)
     return user_num_one * user_num_two
 
 def div_user_num(user_num_one, user_num_two):
+    print(user_num_one / user_num_two)
     return user_num_one / user_num_two
 
 
@@ -30,11 +34,10 @@ user_num_two = int(user_num_two)
 #addition-----------
 if(users_choice == 1):
     add_user_num(user_num_one, user_num_two)
-    print(user_num_one + user_num_two)
 #Subtraction----------
 elif(users_choice == 2):
-    sub_user_num
+    sub_user_num(user_num_one, user_num_two)
 elif(users_choice == 3):
-    mult_user_num
+    mult_user_num(user_num_one, user_num_two)
 elif(users_choice == 4):
-    div_user_num 
+    div_user_num (user_num_one, user_num_two)
