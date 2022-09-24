@@ -37,7 +37,9 @@ if(users_choice == 1):
 #Subtraction----------
 elif(users_choice == 2):
     sub_user_num(user_num_one, user_num_two)
+#Multiplication----------
 elif(users_choice == 3):
     mult_user_num(user_num_one, user_num_two)
+#Division----------
 elif(users_choice == 4):
     div_user_num (user_num_one, user_num_two)
