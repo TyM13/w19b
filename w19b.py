@@ -22,13 +22,32 @@ def div_user_num(user_num_one, user_num_two):
 
 
 
-users_choice = input('enter your selection:')
-users_choice = int(users_choice)
 
-user_num_one = input('enter a number:')
-user_num_one = int(user_num_one)
-user_num_two = input('enter a number:')
-user_num_two = int(user_num_two)
+try:
+    users_choice = input('enter your selection:')
+    users_choice = int(users_choice)
+except ValueError:
+    print('improper value please use a proper value')
+    users_choice = input('enter your selection:')
+    users_choice = int(users_choice)
+except:
+    print('something went wrong')
+
+try:
+    user_num_one = input('enter a number:')
+    user_num_one = int(user_num_one)
+    user_num_two = input('enter a number:')
+    user_num_two = int(user_num_two)
+except ValueError:
+    print('improper value please use a proper value')
+    user_num_one = input('enter a number:')
+    user_num_one = int(user_num_one)
+    user_num_two = input('enter a number:')
+    user_num_two = int(user_num_two)
+except:
+    print('something has gone wrong')
+    
+
 
 
 #addition-----------
